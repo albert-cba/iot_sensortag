@@ -1,15 +1,15 @@
-# AWS IOT, SensorTag 2650 and Raspberry Pi - Demo 
+# IOT, SensorTag 2650 and Raspberry Pi - Demo 
 This repository demo the integration of AWS IOT, TI SensorTag 2650 and Raspberry Pi 2 (Gateway).
 
-## Referenced Libraries and Frameworks
+## Pre-requisite
 
-1. https://github.com/IanHarvey/bluepy (GPL 2.0 License)  
+1. https://github.com/IanHarvey/bluepy
 The underlying implementation of bluebooth gateway on Raspberry Pi is from Ian Harvey
 
-2. https://github.com/awslabs/amazon-kinesis-connectors (Amazon Software License)    
+2. https://github.com/awslabs/amazon-kinesis-connectors
 Kinesis connectors library are from awslabs, these connectors are used to push data to S3 and redshift.
 
-3. http://epochjs.github.io/epoch/ (MIT License)  
+3. http://epochjs.github.io/epoch/
 Real Time charting .js library
 
 ## High Level Overview
@@ -17,7 +17,7 @@ Real Time charting .js library
 ![Alt text](raw/High_Level_Overview.jpg?raw=true "High Level Overview")
 
 Detailed Presentation deck   
-[https://github.com/albertho97/aws_iot_sensortag/High_Level_Overview.pdf](High_Level_Overview.pdf)
+[https://github.com/albert-cba/iot_sensortag/High_Level_Overview.pdf](High_Level_Overview.pdf)
 
 ## Hardware used
 
@@ -33,7 +33,7 @@ Detailed Presentation deck
 
 Showing the light sensor readings (Lux) in real-time, there are 4 sensor tag connected to Pi (Gateway) sending data to internet
 
-## AWS Services
+## Cloud Services used (AWS)
 
 Required to be set up behind the scene
 - Kinesis
