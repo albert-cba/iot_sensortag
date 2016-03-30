@@ -1,15 +1,15 @@
 # IOT, SensorTag 2650 and Raspberry Pi - Demo 
-This repository demo the integration of AWS IOT, TI SensorTag 2650 and Raspberry Pi 2 (Gateway).
+This repository demo the integration of TI SensorTag 2650, Raspberry Pi 2 (Gateway) and Cloud service (AWS).
 
 ## Pre-requisite
 
-1. https://github.com/IanHarvey/bluepy
+1. https://github.com/IanHarvey/bluepy  
 The underlying implementation of bluebooth gateway on Raspberry Pi is from Ian Harvey
 
-2. https://github.com/awslabs/amazon-kinesis-connectors
+2. https://github.com/awslabs/amazon-kinesis-connectors  
 Kinesis connectors library are from awslabs, these connectors are used to push data to S3 and redshift.
 
-3. http://epochjs.github.io/epoch/
+3. http://epochjs.github.io/epoch/  
 Real Time charting .js library
 
 ## High Level Overview
